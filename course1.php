@@ -6,7 +6,7 @@ $conn = mysqli_connect("localhost", "root", "ekramhossain" , "userregistration")
 if (!$conn) {
     die("Connection failed: ". mysqli_connect_error());
 }
- $file = 'C:\apache\htdocs\c.pdf';
+ $file = 'swebookPHP\c.pdf';
  $filename = 'C:\apache\htdocs\c.pdf';
  header('Content-type:application.pdf');
  header('Content-Disposition: inline; filename"' . $filename .'"');
