@@ -62,7 +62,7 @@ if(isset($_POST['save_book']))
 
  if($dataresult){
     $su ="Data inserted at Database";
-    move_uploaded_file($_FILES['image']['tmp_name'], 'swebookPHP/images/books/'.$image);
+    move_uploaded_file($_FILES['image']['tmp_name'], 'images/books/'.$image);
     }
     else
     {
