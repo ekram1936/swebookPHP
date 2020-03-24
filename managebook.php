@@ -64,7 +64,7 @@ if (!$conn) {
                                         </td>
                                     
                                         <td>
-                                           <img style="width: 50px;" src ="C:/apache/htdocs/images/books/ <?= $row['image'] ?>"> 
+                                           <img style="width: 50px;" src ="swebookPHP/images/books/ <?= $row['image'] ?>"> 
                                         </td>
 
                                         <td>
@@ -150,7 +150,7 @@ if (!$conn) {
                                                 <tr>
                                                     <th>Image</th>
                                                     <td>
-                                           <img style="width: 50px;" src ="C:/apache/htdocs/images/books/ <?= $row['image'] ?>"> 
+                                           <img style="width: 50px;" src ="swebookPHP/images/books/ <?= $row['image'] ?>"> 
                                         </td>
                                         
                                                 </tr>
