@@ -14,7 +14,7 @@ $password = $_POST['password'];
 
 $reg="insert into usertable (username,email,password) values ('$name' , '$email' , '$password')";
 $sql=mysqli_query($conn,$reg);
-header("location:login.php");
+header("location:index.php");
 
 
 
