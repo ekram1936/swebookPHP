@@ -5,17 +5,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	 <link rel="stylesheet" href="./loginStyle.css" />
+   <title></title>
+    <link rel="stylesheet" href="./loginStyle.css" />
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>	 
+    crossorigin="anonymous"></script>   
 </head>
 <body>
 <div class="materialContainer">
@@ -26,14 +26,14 @@
       <div class="title">LOGIN</div>
   <form action="validation.php" method="post">
       <div class="input">
-         <label for="name">Username</label>
-         <input type="text" name="username" id="username" required>
+         
+         <input type="text" placeholder="Username"name="username" id="username" required>
          <span class="spin"></span>
       </div>
 
       <div class="input">
-         <label for="pass">Password</label>
-         <input type="password" name="password" id="password" required>
+         
+         <input type="password"  placeholder="Password" name="password" id="password" required>
          <span class="spin"></span>
       </div>
 
@@ -51,20 +51,21 @@
       <div class="title">REGISTER</div>
 <form action="registration.php" method="post">
       <div class="input">
-         <label for="username">Username</label>
-         <input type="text" name="username" id="username" required>
+         
+         <input type="text" placeholder="Username" name="username" id="username" required>
+         <span class="spin"></span>
+        
+      </div>
+
+      <div class="input">
+         
+         <input type="email" name="email" placeholder="Email" id="email" required>
          <span class="spin"></span>
       </div>
 
       <div class="input">
-         <label for="email">Email</label>
-         <input type="email" name="email" id="email" required>
-         <span class="spin"></span>
-      </div>
-
-      <div class="input">
-         <label for="reregpass">Password</label>
-         <input type="password" name="password" id="password" required>
+       
+         <input type="password" name="password" placeholder="Password" id="password" required>
          <span class="spin"></span>
       </div>
 
@@ -75,7 +76,7 @@
 
    </div>
    <script type="text/javascript">
-   	$(function() {
+      $(function() {
 
    $(".input input").focus(function() {
 

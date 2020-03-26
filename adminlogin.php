@@ -22,21 +22,21 @@
       <div class="title">LOGIN</div>
   <form action="adminvali.php" method="post">
       <div class="input">
-         <label for="name">Username</label>
-         <input type="text" name="username" id="username" required>
+         
+         <input type="text" name="username" placeholder="Username" id="username" required>
          <span class="spin"></span>
       </div>
 
       <div class="input">
-         <label for="pass">Password</label>
-         <input type="password" name="password" id="password" required>
+         
+         <input type="password" name="password"  placeholder="password"id="password" required>
          <span class="spin"></span>
       </div>
 
       <div class="button login">
          <button><span>GO</span> </i></button>
       </div>
-      <a href="login.php" class="pass-forgot">Back</a>
+      <a href="index.php" class="pass-forgot">Back</a>
   </form>
        <script type="text/javascript">
     $(function() {
